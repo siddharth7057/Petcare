@@ -58,3 +58,27 @@
     height: 700px;
 }
 
+.navbar-nav .nav-link {
+    color: #ffb300;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: #ffb300;               /* default golden */
+    position: relative;
+}
+
+/* hover */
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+/* clicked / focused / active */
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active,
+.navbar-nav .nav-link.active {
+    color: white;
+}
