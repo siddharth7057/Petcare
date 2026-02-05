@@ -144,8 +144,14 @@
     transform: translateX(10px);
 }
 
-.about{
+.about .row{
+    padding: 0;
     margin-top: 100px;
+    background-image: linear-gradient(to right, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .about .about-btn{
@@ -192,12 +198,28 @@
 .services .card {
     border-radius: 20px;
     overflow: hidden;
+    transition: transform 0.5s ease-in-out,
+                box-shadow 0.5s ease-in-out;
+}
+
+
+.services .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 20px #3a1916;
 }
 
 .services .card-img-top {
     height: 250px;
     object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+    
 }
+.services .card-img-top:hover {
+    height: 250px;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
 
 .service-info{
     min-height:350px;
@@ -263,9 +285,73 @@
 
 .card:hover{
     box-shadow: 1px 1px 20px #3a1916;
+    transform: translateY(-10px);
     transition: box-shadow 0.5s ease-in-out;
 }
 .service-info:hover{
     box-shadow: 1px 1px 20px #3a1916;
-    transition: box-shadow 0.5s ease-in-out;
+    transform: translateY(-10px);
+    transition: transfrom 0.5s ease-in-out;
+}
+
+.choose .row{
+    padding: 0;
+    margin-top: 100px;
+    background-image: linear-gradient(to left, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.choose .choose-btn{
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    /* margin-left: 20px; */
+}
+
+.choose-btn a{
+    padding: 7px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.choose-btn i{
+    margin-top: 12px; 
+    /* margin-left: 5px; */
+}
+
+.choose-btn:hover{
+    background-color: #ffb300;
+    transition: background-color 0.5s ease-in-out;
+}
+.choose-btn:hover i{
+    transition:  0.5s ease-in-out;
+    transform: translateX(10px);
+}
+
+.choose h1, h4, p{
+    text-align: justify;
+}
+
+.contact .row{
+        padding: 0;
+    margin-top: 100px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.537), rgba(0, 0, 0, 0.55)), url(../assets/Home/contact-bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contact p{
+    color: #ffb300
+}
+.contact h1{
+    color: #ffb300
+}
+.contact .ctn-top{
+    margin-top: 50px;
 }
