@@ -5,7 +5,7 @@
 }
 
 /* navbar css starts here */
-.navi {
+navi {
   position: sticky;
   width: 100%;
   top: 0;
@@ -62,29 +62,42 @@
 .navbar-nav .nav-link.active {
   color: white;
 }
+/* navbar css ends here */
 
-/* navbar css ends her */
-
-/* background image code starts here */
-.background-image {
-  height: 60vh;
-  padding: 0;
-  margin-top: 100px;
-  background-image:
-    linear-gradient(
-      to right,
-      rgba(232, 96, 55, 0.856),
-      rgba(248, 248, 248, 0.4),
-      rgba(248, 248, 248, 0.4)
-    ),
-    url(../assets/Contact/contact-background.webp);
+.contact-bg
+{
+  min-height: 60vh;
+  width: 100%;
+  
+     background:
+        linear-gradient(
+            to right,
+            rgba(226, 94, 82, 0.26) 0%,
+            rgba(226, 94, 82, 0.32) 30%,
+            rgba(226, 94, 82, 0.38) 60%,
+            rgba(226, 94, 82, 0.44) 100%
+        ),
+        url('../assets/Contact/contact-background.webp');
   background-repeat: no-repeat;
-  /* background-size: 100% 100%; */
+  background-position: center top;
   background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  filter: brightness(70%);
+
+  
+}
+@media (max-width: 768px) {
+    .contact-bg {
+        min-height: 40vh;
+    }
 }
 
 
-/* contact cards code starts here */
+
+/* ========= */
+.icons
+{
+  background-color:#E25E52;
+}
+.contact-card .col-3
+{
+  border-right: 2px solid black;
+}
