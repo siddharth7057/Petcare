@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-hero .about-hero-img{
+    min-height:350px;
+    width: 100%;
+    background-image:linear-gradient(to bottom right, rgba(255, 204, 0, 0.392),rgba(255, 204, 0, 0.392)), url(../assets/About/hero3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter:brightness(70%);
+    padding: 40px;
+}

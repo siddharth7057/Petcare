@@ -55,19 +55,10 @@
     width: 100%;
 }
 
-.carousel-item img{
-    height: 700px;
-}
-
-.navbar-nav .nav-link {
-    color: #ffb300;
-}
-
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:active,
-.navbar-nav .nav-link.active {
+/* .navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
     color: white;
-}
+} */
 
 /* .slide{
     background-image: linear-gradient(to bottom right, #3a1916ab, #fff);
@@ -75,17 +66,16 @@
 
 
 .carousel-item img{
-    /* height: 550px; */
+    width: 100%;
+    height: 100vh;
     background-color: #ffd572;
     filter: brightness(50%);
     border-radius: 50%;
     border: 2px solid black;
-    height: 100vh;
     object-fit: cover;  
 }
 
 .carousel-item .slider-img{
-    /* height: 550px; */
     background-color: #ffd572;
     filter: brightness(150%);
     border-radius: 50%;
@@ -122,6 +112,8 @@
     border-radius: 10px;
     padding: 0 15px;
     margin-left: 20px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
 }
 
 .slider-btn a{
@@ -132,7 +124,6 @@
 
 .slider-btn i{
     margin-top: 12px; 
-    /* margin-left: 5px; */
 }
 
 .slider-btn:hover{
@@ -143,6 +134,7 @@
     transition:  0.5s ease-in-out;
     transform: translateX(10px);
 }
+
 
 .about .row{
     padding: 0;
@@ -234,7 +226,7 @@
 
 
 .service-info h3 {
-    color: #3a1916;
+    color: orangered;
     margin-bottom: 15px;
 }
 
@@ -283,7 +275,7 @@
     background-color: #ffb300;
 }
 
-.card:hover{
+.service-info .card:hover{
     box-shadow: 1px 1px 20px #3a1916;
     transform: translateY(-10px);
     transition: box-shadow 0.5s ease-in-out;
@@ -294,7 +286,7 @@
     transition: transfrom 0.5s ease-in-out;
 }
 
-.choose .row{
+.choose .choose-us{
     padding: 0;
     margin-top: 100px;
     background-image: linear-gradient(to left, rgba(232, 96, 55, 0.856), rgba(248, 248, 248, 0.4)), url(../assets/Home/back-img.jpg);
@@ -344,6 +336,7 @@
     background-size: 100% 100%;
     background-position: center;
     background-attachment: fixed;
+    border-radius: 20px;
 }
 
 .contact p{
@@ -354,4 +347,54 @@
 }
 .contact .ctn-top{
     margin-top: 50px;
+}
+
+.contact .contact-btn{
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    /* margin-left: 20px; */
+    transition: background-color 0.5s ease;
+}
+
+.contact-btn a{
+    /* padding: 10px; */
+    text-decoration: none;
+    color: black;
+}
+
+.contact-btn i{
+    margin-top: 12px; 
+}
+
+.contact-btn:hover{
+    background-color: #ffb300;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-btn:hover i{
+    transition:  0.5s ease-in-out;
+    transform: translateX(10px);
+}
+
+.testimonial{
+    margin-top: 100px;
+}
+
+.testimonial .card{
+    width: 100%;
+    height: 300px;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial .card-img-top{
+    width: 80px;
+    height: 100px;
+    margin: auto;
+    filter: brightness(100%);
 }
