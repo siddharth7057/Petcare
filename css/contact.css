@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-background
+{
+    border: 1px solid #000;
+    background: linear-gradient(to right, #2E1A14, #4B281F, #7A4A3A);
+
+}
