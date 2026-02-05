@@ -351,3 +351,32 @@
 .contact .ctn-top{
     margin-top: 50px;
 }
+
+.contact .contact-btn{
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    /* margin-left: 20px; */
+    transition: background-color 0.5s ease;
+}
+
+.contact-btn a{
+    /* padding: 10px; */
+    text-decoration: none;
+    color: black;
+}
+
+.contact-btn i{
+    margin-top: 12px; 
+}
+
+.contact-btn:hover{
+    background-color: #ffb300;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.contact-btn:hover i{
+    transition:  0.5s ease-in-out;
+    transform: translateX(10px);
+}
