@@ -55,15 +55,10 @@
     width: 100%;
 }
 
-.navbar-nav .nav-link {
-    color: #ffb300;
-}
-
-.navbar-nav .nav-link:focus,
-.navbar-nav .nav-link:active,
-.navbar-nav .nav-link.active {
+/* .navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:active {
     color: white;
-}
+} */
 
 /* .slide{
     background-image: linear-gradient(to bottom right, #3a1916ab, #fff);
@@ -230,7 +225,7 @@
 
 
 .service-info h3 {
-    color: #3a1916;
+    color: orangered;
     margin-bottom: 15px;
 }
 
