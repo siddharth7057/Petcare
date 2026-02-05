@@ -76,7 +76,7 @@
 }
 
 .carousel-item .slider-img{
-    height: 600vh;
+    height: 400vh;
     background-color: #ffd572;
     filter: brightness(150%);
     /* border-radius: 50%; */
