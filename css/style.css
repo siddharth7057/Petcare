@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #b7822d;
+}
 
 .navi {
     position: sticky;
@@ -17,7 +20,7 @@
 .navbar{
     min-height: 70px;
     width: 100%;
-    background-color: black;
+    background-color: #3a1916;
 
 }
 
@@ -360,10 +363,6 @@
     color: black;
 }
 
-.contact-btn i{
-    margin-top: 12px; 
-}
-
 .contact-btn:hover{
     background-color: #ffb300;
     transition: background-color 0.5s ease-in-out;
@@ -385,7 +384,7 @@
     left: 50%;
     transform: translate(-50%, -50%); */
     margin: auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .testimonial .card-img-top{
@@ -394,3 +393,4 @@
     margin: auto;
     filter: brightness(100%);
 }
+

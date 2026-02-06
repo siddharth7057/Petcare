@@ -16,7 +16,7 @@ navi {
 .navbar {
   min-height: 70px;
   width: 100%;
-  background-color: black;
+  background-color:#3A1916;
 }
 
 .navbar .logo {
@@ -92,23 +92,19 @@ navi {
 
 
 
-/* ========= */
 .icons
 {
   background-color:#E25E52;
 }
-/* Border only on large screens */
+
 @media (max-width: 991px) {
     .border-lg-end {
         border-right: 0 !important;
     }
 }
 
-
-
-/* footer csss */
 .custom-footer {
-  background-color: #b14b41;
+  background-color: #3A1916;
 }
 .footer-nav-list li {
   list-style-type: none;

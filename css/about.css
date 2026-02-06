@@ -17,8 +17,7 @@
 .navbar{
     min-height: 70px;
     width: 100%;
-    background-color: black;
-
+    background-color: #3a1916;
 }
 
 .navbar .logo{
@@ -143,7 +142,7 @@
     position: absolute;
     top: 60%;
     left:10%;
-    padding: 0 5px;
+    padding: 10px 10px;
     /* opacity: 0.5; */
 }
 
@@ -199,10 +198,6 @@
     color: black;
 }
 
-.contact-btn i{
-    margin-top: 12px; 
-}
-
 .contact-btn:hover{
     background-color: #ffb300;
     transition: background-color 0.5s ease-in-out;
@@ -211,4 +206,49 @@
 .contact-btn:hover i{
     transition:  0.5s ease-in-out;
     transform: translateX(10px);
+}
+
+.what-we-do{
+    min-height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.what-we-do .card-body{
+    height: 35vh;
+    width: 95%;
+    position: relative;
+    margin: auto;
+}
+
+.what-we-do .card-body img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.what-we-do .card-img-top{
+    width: 100%;
+    height: 200px;
+    border-radius: none;
+}
+
+.card-img-top img{
+    width: 100%;
+    height: 100px;
+    border-radius: none;
+}
+
+.what-btn{
+    background-color: #E25E52;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.what-btn:hover{
+    background-color: #ffb300;
+    transition: background-color 0.5s ease-in-out;
 }
