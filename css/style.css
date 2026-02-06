@@ -414,12 +414,12 @@ body{
 } */
 
 .testimonial .card{
-    width: 100%;
     max-width: 22rem;
+    width: 100%;
     margin: auto;
+    padding: 1.25rem;
+    border-radius: 12px;
     text-align: center;
-    margin: auto;
-    text-align: justify;
 }
 
 .testimonial .card-img-top{
@@ -427,8 +427,12 @@ body{
     height: 80px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 1rem auto 0;
+    margin: 0 auto 1rem;
     filter: brightness(100%);
+}
+.testimonial .card-text{
+    font-size: 0.9rem;
+    overflow-wrap: break-word;
 }
 
 .custom-footer
