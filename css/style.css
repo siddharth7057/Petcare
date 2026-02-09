@@ -123,7 +123,7 @@ body{
 
 .carousel-caption{
     top: 12%;
-    width: 50%;
+    width: 55%;
     /* margin: auto; */
 }
 
@@ -158,6 +158,10 @@ body{
     padding: 5px 10px;
     text-decoration: none;
     color: black;
+}
+
+.slider-btn i{
+    font-size: 15px;
 }
 
 .slider-btn i{
@@ -249,7 +253,7 @@ body{
 
 .service-info{
     min-height:350px;
-    background-image:linear-gradient(to bottom right, #ffe2b4a8, #ffe2b4a8), url(../assets/Home/info-img.png);
+    background-image:linear-gradient(to bottom right, rgba(255, 255, 255, 0.47), rgba(255, 255, 255, 0.47)), url(../assets/Home/info-img.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
